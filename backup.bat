@@ -11,3 +11,5 @@ set filename=C:\backup\%year%%month%%day%-%hour%%min%-postgres.sql
 echo Iniciando el backup
 
 "C:\Program Files\PostgreSQL\11\bin\pg_dump.exe" -U postgres -f %filename% postgres
+
+echo Iniciando el backup
